@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavTabs() {
   return(
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <Link to="/" className="navbar-brand py-2">
         Garrett Roberts
       </Link>
