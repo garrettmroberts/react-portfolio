@@ -1,8 +1,11 @@
 import React from "react";
+import Container from "../components/Container";
 
 function Contact() {
   return (
-    <h1>Contact Page</h1>
+    <Container>
+      <h1>Contact Page</h1>
+    </Container>
   );
 }
 

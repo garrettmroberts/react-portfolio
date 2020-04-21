@@ -1,9 +1,10 @@
 import React from "react";
+import Container from "../Container";
 
 function Footer() {
   return(
     <footer className="bg-dark">
-      <div className="container">
+      <Container>
         <div className="row">
           <div className="col-12">
             <ul className="nav justify-content-center">
@@ -30,7 +31,7 @@ function Footer() {
             <p>Made with &hearts; in Nashville, TN</p>
           </div>
         </div>
-      </div>
+      </Container>
     </footer>
   )
 };
