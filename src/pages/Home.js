@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
+import AboutCard from "../components/AboutCard";
 
 class Home extends React.Component {
   constructor() {
@@ -18,6 +19,7 @@ class Home extends React.Component {
   
   render() {
     return(
+    <main>
       <Container>
         <div className="row mt-5 d-flex justify-content-center pt-5">
           <div className="col-lg-12 text-center text-primary bg-light">
@@ -32,6 +34,11 @@ class Home extends React.Component {
           </div>
         </div>
       </Container>
+      <Container>
+        <AboutCard />
+      </Container>
+
+    </main>
     );
   }
 }
