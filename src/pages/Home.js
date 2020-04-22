@@ -21,7 +21,7 @@ class Home extends React.Component {
     return(
     <main>
       <Container>
-        <div className="row mt-5 d-flex justify-content-center pt-5">
+        <div className="row mt-2 d-flex justify-content-center pt-5">
           <div className="col-lg-12 text-center text-primary bg-light">
             <div className="bg-primary rounded text-light">
               <h3 className="mt-5 pt-4">Hello, I'm Garrett.</h3>
