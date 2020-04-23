@@ -3,7 +3,7 @@ import "./style.css";
 
 function Card({ assets }) {
   return(
-    <article className="card text-white bg-dark">
+    <article className="card">
       <img className="card-img-top" src={assets.image} alt="{assets.name} screenshot" />
       <div className="card-body">
         <h4 className="card-title">{assets.name}</h4>
